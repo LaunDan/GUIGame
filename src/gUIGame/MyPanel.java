@@ -1,4 +1,7 @@
 package gUIGame;
 
-public class MyPanel {
+import javax.swing.*;
+
+public class MyPanel extends JPanel {
+
 }
