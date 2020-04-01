@@ -5,6 +5,8 @@ import java.awt.*;
 
 public class MyPanel extends JPanel {
     private Image picture;
+    private int pictureWidth;
+    private int pictureHeight;
 
     public MyPanel() {
     this.setPreferredSize(new Dimension(1050,800));
@@ -12,6 +14,8 @@ public class MyPanel extends JPanel {
 
     ImageIcon ii = new ImageIcon(this.getClass().getResource("picture1.jpg"));
     picture = ii.getImage();
+
+    
     }
 
     public void paintComponent(Graphics g){
